@@ -1,0 +1,7 @@
+Description='Dhcp ethernet connection'
+Interface=enp4s0
+Connection=ethernet
+IP=dhcp
+Auth8021X=yes
+WPAConfigFile=/etc/wpa_supplicant/wpa_supplicant-wired.conf
+WPADriver=wired
