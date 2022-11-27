@@ -16,7 +16,7 @@ This repository contains a way to solve the recent openssl-3 issue which breaks 
 
 5)  After ```arch-chroot /mnt```, Add standard user-password, Generate locale, After that - 
 ```bash
-    git clone https://github.com/ryuJin25/arch-install-base
+    git clone https://github.com/ryuJin25/Arch-Install-Base
 ```
 6)  ```./base-uefi.sh```
 
