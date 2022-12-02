@@ -1,10 +1,6 @@
 #!/bin/bash
 ip link set enp4s0 up
 
-pacman -S wpa_supplicant netctl openssl
-cp wpa_supplicant-wired.conf /etc/wpa_supplicant/
-cp ethernet-dhcp /etc/netctl/
-
 ip link set wlan0 down
 ip link set enp4s0 down
 
